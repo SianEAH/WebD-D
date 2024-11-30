@@ -1,0 +1,26 @@
+/*Sian*/
+h1 {
+	padding: 75px;
+}
+
+/*Sian*/
+#topdiv {
+	background-color: DarkSeaGreen;
+	width: 1350px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Sian*/
+@media screen and (max-width: 980px) and (min-width: 701px) {
+#wrapper {
+width: 90%;
+}
+#content {
+width: 60%;
+}
+#navbar {
+width: 30%;
+}
+}
