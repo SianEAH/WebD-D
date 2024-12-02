@@ -12,17 +12,6 @@ width: 30%;
 }
 
 /*Sian*/
-h1 {
-	padding: 75px;
-}
-
-/*Sian*/
-#energy {
-	padding: 10px;
-	text-align: center;
-}
-
-/*Sian*/
 #topdiv {
 	background-color: DarkSeaGreen;
 	width: 1350px;
@@ -30,72 +19,40 @@ h1 {
 	padding: 0px;
 	margin: 0px;
 }
-
+/*Top Images*/
 /*Sian*/
+h1 {
+	padding: 75px;
+	text-align: center;
+}
+
 #oildrill {
-	height: 350px;
-	width: 350px;
-	position: center;
-	margin-left: 380px;
+	margin-left: 20%;
 }
 
-/*Sian*/
-#coal {
-	height: 350px;
-	width: 350px;
-	position: center;
-}
-
-/*Sian*/
 #powerplant {
-	height: 350px;
-	width: 350px;
 	padding-top: 10px;
-	position: center;
-	margin-left: 380px;
+	margin-left: 20%;
 }
 
-/*Sian*/
 #gas {
-	height: 350px;
-	width: 350px;
 	padding-top: 10px;
-	position: center;
 }
-
-/*Sian*/
+/*Bottom Images*/
 #solar {
-	height: 350px;
-	width: 350px;
-	position: center;
-	margin-left: 380px;
+	float: center;
+	margin-left: 20%;
 }
 
-/*Sian*/
 #turbines {
-	height: 350px;
-	width: 350px;
-	position: center;
+
 }
 
-/*Sian*/
 #electric {
-	height: 350px;
-	width: 350px;
 	padding-top: 10px;
-	position: center;
-	margin-left: 380px;
+	margin-left: 20%;
 }
 
-/*Sian*/
 #dam {
-	height: 350px;
-	width: 350px;
 	padding-top: 10px;
-	position: center;
-}
-
-/*Sian*/
-#graph {
-	height: 200px:
 }
