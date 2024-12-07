@@ -79,3 +79,51 @@ h3 {
 #dam {
 	padding-top: 10px;
 }
+
+/*Anna*/
+section {
+		padding: 25px;
+		margin-left: 20px;
+}
+
+.Earth {
+	padding: 30px;
+	margin-left: 350px;
+}
+
+#paragraph {
+	padding:80px;
+	text-align: center;
+}
+
+.consequences {
+	text-decoration: underline;
+	text-decoration color: grey;
+}
+
+#Prevention {
+	position: left;
+	text-align: center;
+	padding: 50px;
+}
+
+/*I used 'Encolorpedia' to convert the pantone green colors into their hex codes https://encycolorpedia.com/437d6d
+Turf Green (secondary) = #6f8c69
+Malachite Green (primary -became header) = #709a89
+Smoke Green (main secondary -became body) = #a8bba2
+Bottle Green (secondary) = #437d6d
+*/
+
+.h1{
+	background-color: #709a89;
+}
+
+.body{
+	background-color:#a8bba2;
+}
+
+.card-body{
+	background-color: #6f8c69
+}
+
+/*might have to change the colours around guys*/
