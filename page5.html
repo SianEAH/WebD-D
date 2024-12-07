@@ -22,6 +22,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+	
+	<!--Responsiveness-->
+	<!--Sian-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  
     </head>
 
@@ -29,9 +33,7 @@
   
 	<!--Banner & Title-->
 	<!--Sian-->
-	<div id="topdiv">
-    <h1>Climate Action Now</h1>
-	</div>
+	<h1 id="topheading" onclick="changeColour()">Climate Action Now</h1>
 	
 	<!--Navigation Bar-->
 	<!--Sian-->
@@ -49,7 +51,6 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="page2.html" role="button" aria-expanded="false">About Climate Change</a>
     <ul class="dropdown-menu">
-	<li><a class="dropdown-item" href="page2.html">What is it?</a></li>
       <li><a class="dropdown-item" href="page3.html">What You Can Do To Help</a></li>
       <li><a class="dropdown-item" href="page4.html">Targets/Indicators</a></li>
     </ul>
@@ -69,8 +70,8 @@
     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a href="page7.html">Consequences of Climate Change</a></button>
   </li>
   
- <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a href="page8.html">Dealing with the Consequences- How to prevent them?</a></button>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a hef="page8.html">Dealing with the Consequences+Prevention</a></button>
   </li>
   
 </ul>
@@ -82,24 +83,22 @@
   <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
 </div>
 <!--Credit: https://getbootstrap.com/docs/5.3/components/navs-tabs/-->
-
+	<br>
 	<h1 id="energy">Energy</h1>
 	<br>
 	<h2>Non-Renewable Energy</h2>
 	<br><br>
-	<div>
 	
-		<img src="images/nonrenew1.jpg" alt="Oil Drill" id="oildrill" height="350" width="350">
+		<img src="images/nonrenew1.jpg" alt="Oil Drill" id="oildrill" height="300" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/a-la-plage-16822265/ -->
-		<img src="images/nonrenew2.jpg" alt="Coal" id="coal" height="350" width="350">
+		<img src="images/nonrenew2.jpg" alt="Coal" id="coal" height="300" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/close-up-photo-of-black-stones-46801/-->
 		<br>
-		<img src="images/nonrenew3.jpg" alt="Nuclear Power Plant" id="powerplant" height="350" width="350">
+		<img src="images/nonrenew3.jpg" alt="Nuclear Power Plant" id="powerplant" height="300" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/nuclear-power-plant-3044473/ -->
-		<img src="images/nonrenew4.jpg" alt="Natural Gas" id="gas" height="350" width="350">
+		<img src="images/nonrenew4.jpg" alt="Natural Gas" id="gas" height="300" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/burning-stove-266896/-->
 	
-	</div>
 	
 	<br> <br>
 	<!--Definition-->
@@ -133,24 +132,22 @@
 	Reference: activesustainability.com ‘The environmental impact of non-renewable energies’ Available at: https://www.activesustainability.com/renewable-energy/environmental-impact-of-non-renewable-energies/#:~:text=%C2%A0-,Environmental%20impact%20of%20non-renewable%20energies,-These%20resources%20are [Accessed 1 December 2024] 
 	</p>
 	
-	<img src="images/nonrenewdeaths.png" alt="Graph of deaths caused by fossil fuels" id="graph">
+	<img src="images/nonrenewdeaths.png" alt="Graph of deaths caused by fossil fuels" id="graph" height="350" width="450">
 	<!--Gotten from: https://www.canarymedia.com/articles/fossil-fuels/which-power-sources-are-most-deadly-hint-not-solar-and-wind-->
 	<br><br>
 	<h2>Renewable Energy</h2>
 	<br>
-	<div>
 	
-		<img src="images/renew1.jpg" alt="Solar Panels" id="solar" height="350" width="350">
+		<img src="images/renew1.jpg" alt="Solar Panels" id="solar" height="250" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/black-solar-panel-near-calm-body-of-water-371917/-->
-		<img src="images/renew2.jpg" alt="Wind Turbines" id="turbines" height="350" width="350">
+		<img src="images/renew2.jpg" alt="Wind Turbines" id="turbines" height="250" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/white-windmill-414807/-->
 		<br>
-		<img src="images/renew3.jpg" alt="Electric Car Charging" id="electric" height="350" width="350">
+		<img src="images/renew3.jpg" alt="Electric Car Charging" id="electric" height="300" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/white-car-charging-3846205/-->
-		<img src="images/renew4.jpg" alt="A Dam" id="dam" height="350" width="350">
+		<img src="images/renew4.jpg" alt="A Dam" id="dam" height="300" width="300">
 		<!--Gotten from: https://www.pexels.com/photo/scenic-view-of-glen-canyon-dam-at-lake-powell-29559237/-->
 	
-	</div>
 	
 	<br> <br>
 	<!--Definition-->

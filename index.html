@@ -32,9 +32,7 @@
   
 	<!--Banner & Title-->
 	<!--Sian-->
-	<div id="topdiv">
-    <h1>Climate Action Now</h1>
-	</div>
+	<h1 id="topheading" onclick="changeColour()">Climate Action Now</h1>
 	
 	<!--Navigation Bar-->
 	<!--Sian-->
@@ -52,7 +50,6 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="page2.html" role="button" aria-expanded="false">About Climate Change</a>
     <ul class="dropdown-menu">
-	<li><a class="dropdown-item" href="page2.html">What is it?</a></li>
       <li><a class="dropdown-item" href="page3.html">What You Can Do To Help</a></li>
       <li><a class="dropdown-item" href="page4.html">Targets/Indicators</a></li>
     </ul>
@@ -72,9 +69,9 @@
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false"><a href="page7.html">Consequences of Climate Change</a></button>
   </li>
-	    
+  
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a href="page8.html">Dealing with the Consequences- How to prevent them?</a></button>
+    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false"><a href="page8.html">Dealing with the Consequences+Prevention</a></button>
   </li>
   
 </ul>
@@ -87,30 +84,60 @@
   <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
 </div>
 <!--Credit: https://getbootstrap.com/docs/5.3/components/navs-tabs/-->
+<br><br>
+<div>
+	<!--Sian-->
+	<h1>What is Climate Change</h1>
+	
+	<p>Climate Change is the changing of the Earth's weather and temperature patterns. This can be a natural occurance, due to the activity of the sun and different volcanic activity. But... since the 1800's, humans have been the biggest cause of the change in the Earth's climate</p>
+	
+	<p>Reference: United Nations 'What Is Climate Change?' Available at: https://www.un.org/en/climatechange/what-is-climate-change [Accessed 5 December 2024] </p>
+	
+</div>
+<br><br>
+<div>
+	<!--Sian-->
+	<h1>What is the purpose of our website?</h1>
+	
+	<p> 
+	The purpose of our website is to help inform you about climate change, and multiple different aspects to do with climate change, while providing easy to implement into your daily life solutions, to help combat climate change once and for all.
+	We will also inform you of targets that have been set by the United Nations, which we're hoping to contribute to.
+	You will learn about the consequences of climate change, dealing with those consequences and future preventative measures.
+	</p>
+	
+</div>
 
-<!-- Anna -->
-<form action="mailto:climateactionnow24@gmail.com" method="post">
-	<h3> Create Account </h3>
+	<br><br>
+	<!--Sian-->
+	<h1>Want to contact us?</h1>
+	<br>
+	<button id="mybtn" onclick="openForm()">Click Here</button>
+	
+	<!-- Anna -->
+<form action="mailto:climateactionnow24@gmail.com" method="post" id="form">
 		<label> First name* </label>
 		<br>
-		<input type="text" placeholder="enter your first name"/>
+		<input type="text" placeholder="Enter your first name"/>
 		<br>
 		<label> Last name* </label>
 		<br>
-		<input type="text" placeholder="enter your last name"/>
+		<input type="text" placeholder="Enter your last name"/>
 		<br>
 		<label> Email* </label>
 		<br>
-		<input type="email" size="40" placeholder="enter your email"/>
+		<input type="email" size="40" placeholder="Enter your email"/>
 		<br>
 		<br>
 	<label>What is your query?</label>
 	<br>
 	<select>
+		<option></option>
+		<option>What you can do to help</option>
+		<option>Targets/Indicators</option>
 		<option> Energy </option>
 		<option> Sustainable Food and Water </option>
 		<option> Consequences of Climate Change </option>
-		<option> Prevention </option>
+		<option> Dealing with+Prevention </option>
 	</select>
 		<br>
 		<br>
@@ -121,7 +148,7 @@
 		<br>
 	<input type="submit"/>
 </form>
-	    
- </body>
+
+  </body>
 
 </html>
