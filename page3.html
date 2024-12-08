@@ -1,5 +1,5 @@
 <!--Anna did the basic tags on each page-->
-<!--Sian did the CSS linking and JavaScript linkin-->
+<!--Sian did the CSS linking and JavaScript linking-->
 <!--Solumto's Page-->
 
 <!DOCTYPE html>
@@ -22,6 +22,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+	
+	<!--Responsiveness-->
+	<!--Sian-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  
     </head>
 
@@ -29,9 +33,7 @@
   
 	<!--Banner & Title-->
 	<!--Sian-->
-	<div id="topdiv">
-    <h1>Climate Action Now</h1>
-	</div>
+	<h1 id="topheading" onclick="changeColour()">Climate Action Now</h1>
 	
 	<!--Navigation Bar-->
 	<!--Sian-->
@@ -49,7 +51,6 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="page2.html" role="button" aria-expanded="false">About Climate Change</a>
     <ul class="dropdown-menu">
-	<li><a class="dropdown-item" href="page2.html">What is it?</a></li>
       <li><a class="dropdown-item" href="page3.html">What You Can Do To Help</a></li>
       <li><a class="dropdown-item" href="page4.html">Targets/Indicators</a></li>
     </ul>
@@ -69,8 +70,8 @@
     <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false"><a href="page7.html">Consequences of Climate Change</a></button>
   </li>
   
- <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a href="page8.html">Dealing with the Consequences- How to prevent them?</a></button>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false"><a href="page8.html">Dealing with the Consequences+Prevention</a></button>
   </li>
   
 </ul>
@@ -82,6 +83,46 @@
   <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
 </div>
 <!--Credit: https://getbootstrap.com/docs/5.3/components/navs-tabs/-->
+</div>
+	<br>
+	<!--Sian-->
+	<h1>What you can do to help?</h1>
+	
+	<ul>
+		<li>Turn off anything you are not using</li>
+		<li>Switch to LED light bulbs</li>
+		<li>Switch to energy-efficient appliances</li>
+		<li>Consider switching to renewable energy resources</li>
+		<li>Walk, cycle or take public transport more</li>
+		<li>Consider an electric vehicle, if you do drive</li>
+		<li>Make sure you put your waste in the correct bins</li>
+		<li>Eat less meat</li>
+		<li>Try and waste less food</li>
+		<li>Push your governments for action</li>
+		<li>Reduce unnecessary flying</li>
+		<li>Have a garden or plants, if that is an option</li>
+		<li>Invest in insulation, to prevent energy loss and reduce spending</li>
+		<li>Invest in high efficiency windows, to prevent energy loss in your home</li>
+		<li>If you can not invest in high efficiency windows, try things like reflective
+			blinds, insulated curtains or window film/tape. This is done to prevent 
+			drafts and energy loss in your house</li>
+		<li>Have a programmable thermostat installed</li>
+		<li>Shorten your shower time and reduce baths</li>
+		<li>Wash your clothes on a cooler setting</li>
+		<li>Bundle your online purchases</li>
+		<li>Upcycle your clothing</li>
+		<li>Learn about the practices of the companies you buy from and possibly 
+			reconsider</li>
+		<li>Repair your clothing, instead of throwing it away</li>
+		<li>Eat seasonally</li>
+	
+	</ul>
+	<br>
+	<h1>Don't know which one you want to choose from?</h1>
+	<br>
+	<button id="mybtn2" onclick="randomOption()">Click Here!</button>
+	<br>
+	<p id="givenChoice"></p>
 	
   </body>
 

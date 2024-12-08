@@ -23,6 +23,18 @@ width: 30%;
 	display: none;
 }
 
+/*What You Can Do To Help Page*/
+/*Sian*/
+#mybtn2 {
+	display: block;
+	margin: auto;
+}
+/*Sian*/
+#givenChoice {
+	text-decoration: none;
+	font-size: 30px;
+}
+
 /*Energy Page (Page 5)*/
 /*Top Images*/
 /*Sian*/
@@ -150,7 +162,3 @@ table{
  margin-left:20px;
  border:30px;
 }
-
-/*I changed the colours around on my pages.*/
-
-
