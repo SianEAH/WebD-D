@@ -86,14 +86,31 @@ section {
 		margin-left: 20px;
 }
 
-.Earth {
+#Earth {
 	padding: 30px;
-	margin-left: 350px;
+	margin-left: 600px;
+	margin-right: 300px;
 }
 
+#Impacts{
+	margin-left:20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-left:80px;
+	padding-right: 80px;
+	background-color:#a8bba2;
+	border-color:#709a89;
+}
 #paragraph {
-	padding:80px;
+	margin-top: 20px;
+	margin-left:20px;
+	margin-right: 20px;
+	border:80px;
+	padding-left:80px;
+	padding-right: 80px;
 	text-align: center;
+	background-color:#a8bba2;
+	border-color:#709a89;
 }
 
 .consequences {
@@ -109,21 +126,23 @@ section {
 
 /*I used 'Encolorpedia' to convert the pantone green colors into their hex codes https://encycolorpedia.com/437d6d
 Turf Green (secondary) = #6f8c69
-Malachite Green (primary -became header) = #709a89
-Smoke Green (main secondary -became body) = #a8bba2
+Malachite Green (primary) = #709a89
+Smoke Green (main secondary) = #a8bba2
 Bottle Green (secondary) = #437d6d
 */
 
 .h1{
-	background-color: #709a89;
+	background-color:  #437d6d;
 }
 
 .body{
-	background-color:#a8bba2;
+	background-color:#709a89;
 }
 
 .card-body{
-	background-color: #6f8c69
+	background-color: #a8bba2;
 }
 
-/*might have to change the colours around guys*/
+/*I changed the colours around on my pages.*/
+
+
